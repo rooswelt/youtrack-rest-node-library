@@ -8,13 +8,13 @@ All of the API is exposed through promises and/or callbacks.
 
 Full YouTrack RESTful API [here](http://confluence.jetbrains.com/display/YTD4/YouTrack+REST+API+Reference)
 
-##Installation
+# Installation
 
 ```
 npm install https://github.com/rooswelt/youtrack-rest-node-library
 ```
 
-##Usage
+# Usage
 Obtain a permanent login token following [this guide](https://www.jetbrains.com/help/youtrack/standalone/Log-in-to-YouTrack.html#dev-Permanent-Token)
 ```
 var Connection = require('youtrack-rest-node-library');
@@ -29,5 +29,5 @@ youtrack.issue.getIssue(...);
 youtrack.timeTracking.createWorkItem(...);
 ```
 
-##License
+# License
 Apache 2.0
