@@ -6,7 +6,7 @@ Node library for accessing the Youtrack 4.0 REST API.  Partially designed/ported
 All of the API is exposed through promises and/or callbacks.
 
 
-Full YouTrack RESTful API [here](http://confluence.jetbrains.com/display/YTD4/YouTrack+REST+API+Reference)
+Full YouTrack RESTful API [here](https://www.jetbrains.com/help/youtrack/standalone/YouTrack-REST-API-Reference.html)
 
 # Installation
 
