@@ -8,30 +8,31 @@
   },
   "dependencies": {
     "chai": "~1.8.1",
-    "q": "~1.0.0",
-    "request": "~2.33.0",
-    "lodash": "~2.4.1"
+    "lodash": "~2.4.1",
+    "node-rest-client": "^3.1.0",
+    "object-to-xml": "^1.1.0",
+    "q": "~1.0.0"
   },
   "devDependencies": {
     "mocha": "~1.17.0",
     "chai": "~1.8.1"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/**.spec.js"
+    "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AceMetrix/youtrack-rest-node-library.git"
+    "url": "https://github.com/rooswelt/youtrack-rest-node-library.git"
   },
   "keywords": [
     "youtrack",
     "jetbrains",
     "issue"
   ],
-  "author": "Duncan Wong <baduncaduncan@gmail.com>",
+  "author": "Marco Rosetti <rooswelt83@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/AceMetrix/youtrack-rest-node-library/issues"
+    "url": "https://github.com/rooswelt/youtrack-rest-node-library/issues"
   },
-  "homepage": "https://github.com/AceMetrix/youtrack-rest-node-library"
+  "homepage": "https://github.com/rooswelt/youtrack-rest-node-library"
 }
