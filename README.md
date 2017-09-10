@@ -11,19 +11,22 @@ Full YouTrack RESTful API [here](http://confluence.jetbrains.com/display/YTD4/Yo
 ##Installation
 
 ```
-npm install youtrack-rest-node-library
+npm install https://github.com/rooswelt/youtrack-rest-node-library
 ```
 
 ##Usage
+Obtain a permanent login token following [this guide](https://www.jetbrains.com/help/youtrack/standalone/Log-in-to-YouTrack.html#dev-Permanent-Token)
 ```
 var Connection = require('youtrack-rest-node-library');
 
-var youtrack = new Connection('http://your-youtrack-instance:8080');
+const TOKEN = 'perm:cm9vdA==.Qk9UICBUb2tlbg==.whzUnClqO7hn0XTnP7wska5RRSSuwQ';
+const BASE_URL = 'http://localhost:81';
 
-youtrack.login('username, password', function(err){
-    youtrack.getProject('Your-ID', function(err, project){
-    })
-})
+var youtrack = new Connection(BASE_URL, TOKEN);
+
+youtrack.issue.createIssue(...);
+youtrack.issue.getIssue(...);
+youtrack.timeTracking.createWorkItem(...);
 ```
 
 ##License
